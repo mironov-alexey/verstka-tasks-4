@@ -2,7 +2,6 @@ body {
     background: url(http://img15.deviantart.net/cbb9/i/2005/258/c/4/paper_texture_v5_by_bashcorpo.jpg);
 }
 .base {
-    /*border: 1px solid #000;*/
     margin: auto 20px;
 }
 
@@ -39,7 +38,6 @@ article {
     -webkit-column-rule: 2px solid #000;
     -moz-column-rule : 2px solid #000;
     align-content: center;
-    /*text-align: justify;*/
 }
 
 article p,
@@ -71,7 +69,6 @@ h2 {
 }
 
 p:first-letter {
-    /*font-weight: bold;*/
     letter-spacing: 5px;
     font-size: 18px;
     font-family: 'Diplomata SC', cursive;
