@@ -1,0 +1,84 @@
+body {
+    background: url(http://img15.deviantart.net/cbb9/i/2005/258/c/4/paper_texture_v5_by_bashcorpo.jpg);
+}
+.base {
+    /*border: 1px solid #000;*/
+    margin: auto 20px;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    border-bottom: 10px double #000;
+    border-top: 5px solid #000;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 50px;
+    font-family: 'New Rocker', cursive;
+}
+#under-header {
+    border-bottom: 10px double #000;
+}
+#date {
+    position: relative;
+    left: 34%;
+    display: inline-block;
+}
+
+#price {
+    position: relative;
+    left: 60%;
+    display: inline-block;
+}
+article {
+    -webkit-column-count: 5;
+    column-width: 300px;
+    column-rule: 2px solid #000;
+    -webkit-column-rule: 2px solid #000;
+    -moz-column-rule : 2px solid #000;
+    align-content: center;
+    /*text-align: justify;*/
+}
+
+article p,
+h2,
+h3 {
+    font-family: 'Fira Mono';
+    text-indent: 20px;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+}
+
+h2,
+h3 {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-family: 'IM Fell English', serif;
+    font-size: 32px;
+}
+
+h2 {
+    -webkit-column-span: all;
+    column-span: all;
+    width: 500px;
+    font-family: 'IM Fell English', serif;
+    font-size: 32px;
+}
+
+p:first-letter {
+    /*font-weight: bold;*/
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-family: 'Diplomata SC', cursive;
+}
+
+.first-part {
+    float: left;
+}
+
+.second-part {}
