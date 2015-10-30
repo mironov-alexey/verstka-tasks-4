@@ -1,6 +1,7 @@
 body {
     background: url(http://img15.deviantart.net/cbb9/i/2005/258/c/4/paper_texture_v5_by_bashcorpo.jpg);
 }
+
 .base {
     margin: auto 20px;
 }
@@ -17,9 +18,11 @@ h1 {
     font-size: 50px;
     font-family: 'New Rocker', cursive;
 }
+
 #under-header {
     border-bottom: 10px double #000;
 }
+
 #date {
     position: relative;
     left: 34%;
@@ -31,19 +34,24 @@ h1 {
     left: 60%;
     display: inline-block;
 }
+
 article {
     -webkit-column-count: 5;
+    column-count: 5;
+    -moz-column-count: 5;
+    -webkit-column-width: 300px;
+    -moz-column-width: 300px;
     column-width: 300px;
     column-rule: 2px solid #000;
     -webkit-column-rule: 2px solid #000;
-    -moz-column-rule : 2px solid #000;
+    -moz-column-rule: 2px solid #000;
     align-content: center;
 }
 
 article p,
 h2,
 h3 {
-    font-family: 'Fira Mono';
+    font-family: 'Fira Mono', serif;
     text-indent: 20px;
     font-size: 18px;
 }
@@ -62,6 +70,7 @@ h3 {
 
 h2 {
     -webkit-column-span: all;
+    -ms-grid-column-span: all;
     column-span: all;
     width: 500px;
     font-family: 'IM Fell English', serif;
@@ -74,8 +83,3 @@ p:first-letter {
     font-family: 'Diplomata SC', cursive;
 }
 
-.first-part {
-    float: left;
-}
-
-.second-part {}
